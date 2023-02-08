@@ -1,7 +1,13 @@
 # Capstone Project V
 This readme file will outline how to run the Python files for Capstone Project V. The project explores functions of an SQLite database called *ebookstore* used to store books in the *books* table. The core program is run from **main.py** with functions imported from the other .py files.
 
-## Requirements and Usage
+## Table of Contents
+- [Capstone Project V](#capstone-project-v)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Output](#output)
+  
+## Installation
 To run this code, you will need the following:
 
 | Requirement                                  | Installation command (Mac)              | Installation command (Windows)          |
@@ -10,7 +16,7 @@ To run this code, you will need the following:
 | tabulate library                             | pip install tabulate                    | python -m pip install tabulate          |
 
 
-## Functionality
+## Usage
 This program includes 6 main python files:
 
 - **main.py**: used to execute the core program and interact with the *ebookstore* database.
@@ -23,3 +29,7 @@ This program includes 6 main python files:
 
 ## Output
 The script will output all findings to the console and make changes directly to the *ebookstore* database for any read/write queries. 
+
+## Acknowledgements/Credits
+Many thanks to HyperionDev for providing guidance and educational resource material on SQLite and other aspects of Python coding as part of the Software Engineering Bootcamp, making it possible to produce this code.
+ - [HyperionDev](https://www.hyperiondev.com/)
